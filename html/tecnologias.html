@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tecnologías de la Ciencia de Datos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link id="themeStylesheet" rel="stylesheet" href="../css/style.css">
+        <link rel="icon" type="image/x-icon" href="../images/database_icon (2).png">
+    </head>
+    <body>
+        <header class="top-bar">
+            <nav>
+                <ul>
+                    <li><a href="../home.html">home</a></li>
+                    <li><a href="../html/proceso.html">proceso</a></li>
+                    <li><a href="../html/tecnicas.html">tecnicas</a></li>
+                    <li><a href="../html/referencias.html">referencias</a></li>
+                    <button id="css-button"
+                    onclick="cambiarEstilo()">Cambiar Estilo (CSS)</button>
+
+                <script>
+                    function cambiarEstilo() {
+                        let link = document.getElementById("themeStylesheet");
+                        link.href = link.href.includes("style.css") ? "../css/style2.css" : "../css/style.css";
+                    }
+                </script>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="small-header">
+            <div class="header-content">
+                <h1>Tecnologías de la Ciencia de Datos</h1>
+            </div>
+        </section>
+
+        <section>
+            <div class="full-width-block">
+            </div>
+        </section>
+
+        <section id="tecnicas">
+            <div class="row">
+                <div class="column-one-stag">
+                    <h3><b>Inteligencia Artificial</b></h3>
+                    <p class="column-text">Los modelos de machine learning, 
+                        aprendizaje supervisado y no supervisado se utilizan 
+                        para los análisis predictivos y descriptivos.</p>
+                </div>
+                <div class="column-two-stag">
+                    <h3><b>Computación en la Nube</b></h3>
+                    <p class="column-text">Las tecnologías en la nube ofrecen 
+                        a los científicos de datos la flexibilidad y la capacidad 
+                        de procesamiento necesarias para el análisis avanzado de 
+                        datos.</p>
+                </div>
+                <div class="column-three-stag">
+                    <h3><b>Minería de Datos</b></h3>
+                    <p class="column-text">Busca descubrir patrones en grandes bases 
+                        de datos utilizando métodos como la asociación de reglas y 
+                        el análisis de redes.</p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            
+        </section>
+
+        <div class="footer">
+            <h3>Contacto</h3>
+            <a href="mailto:roxanaperezmedina6@gmail.com"> <img src="../images/mail.png" alt="email" style="width: 30px;"></a>
+                <a href="https://github.com/rvpmin"><img src="../images/github.png" alt="github" style="width: 30px;"></a>
+                <p><a href="https://www.enesmorelia.unam.mx/" style="text-decoration: none;">Escuela Nacional de Estudios Superiores</a> <b>|</b> 
+                    <a href="https://www.unam.mx/" style="text-decoration: none;">Universidad Nacional Autónoma de México</a> <b>|</b>
+                    <a href="https://www.enesmorelia.unam.mx/licenciaturas/tecnologias-para-la-informacion-en-ciencias/" style="text-decoration: none;">Licenciatura en Tecnologías para la Información en Ciencias</a></p>
+        </div>
+
+    </body>
+
+</html>

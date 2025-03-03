@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Técnicas de la Ciencia de Datos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link id="themeStylesheet" rel="stylesheet" href="../css/style.css">
+        <link rel="icon" type="image/x-icon" href="../images/database_icon (2).png">
+    </head>
+    <body>
+        <header class="top-bar">
+            <nav>
+                <ul>
+                    <li><a href="../home.html">home</a></li>
+                    <li><a href="../html/proceso.html">proceso</a></li>
+                    <li><a href="../html/tecnologias.html">tecnologías</a></li>
+                    <li><a href="../html/referencias.html">referencias</a></li>
+                    <button id="css-button"
+                    onclick="cambiarEstilo()">Cambiar Estilo (CSS)</button>
+
+                <script>
+                    function cambiarEstilo() {
+                        let link = document.getElementById("themeStylesheet");
+                        link.href = link.href.includes("style.css") ? "../css/style2.css" : "../css/style.css";
+                    }
+                </script>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="small-header">
+            <div class="header-content">
+                <h1>Técnicas de la Ciencia de Datos</h1>
+            </div>
+        </section>
+
+        <section>
+            <div class="full-width-block">
+            </div>
+        </section>
+
+        <section id="campos-realcionados">
+            <div class="row">
+                <div class="side">
+                    <img class="image-border" src="../images/machine_learning_2.jpg" alt="machine learning image" style="width: 100%;">
+                    <img class="image-border" src="../images/dots.jpg" alt="classification image" style="width: 100%;">
+                </div>
+                <div class="main">
+                    <div class="fakeimg">
+                        <h3><b>Clasificación</b></h3>
+                        <p>Consiste en ordenar los datos en grupos o categorías específicas. 
+                            Los conjuntos de datos conocidos se utilizan para crear algoritmos 
+                            de decisión en una computadora que procesa y categoriza rápidamente 
+                            los datos.</p>
+                    </div>
+
+                    <div class="text-highlight-lighter">
+                        <h3><b>Regresión</b></h3>
+                        <p>Es un método para encontrar una relación entre dos puntos de datos 
+                            que aparentemente no se relacionan. Cuando se conoce el valor de 
+                            un punto de datos, se utiliza la regresión para predecir el otro 
+                            punto de datos.</p>
+                    </div>
+
+                    <div class="text">
+                        <h3><b>Agrupación</b></h3>
+                        <p>Consiste en agrupar en clústeres los datos estrechamente relacionados 
+                            para buscar patrones y anomalías. Se diferencia de  la clasificación 
+                            porque los datos no se pueden clasificar con precisión en categorías 
+                            fijas, por lo que los datos se agrupan en relaciones más probables.</p>
+                    </div>
+
+
+                </div>
+            
+        </div>
+        </section>
+
+        
+
+        <div class="footer">
+            <h3>Contacto</h3>
+            <a href="mailto:roxanaperezmedina6@gmail.com"> <img src="../images/mail.png" alt="email" style="width: 30px;"></a>
+                <a href="https://github.com/rvpmin"><img src="../images/github.png" alt="github" style="width: 30px;"></a>
+                <p><a href="https://www.enesmorelia.unam.mx/" style="text-decoration: none;">Escuela Nacional de Estudios Superiores</a> <b>|</b> 
+                    <a href="https://www.unam.mx/" style="text-decoration: none;">Universidad Nacional Autónoma de México</a> <b>|</b>
+                    <a href="https://www.enesmorelia.unam.mx/licenciaturas/tecnologias-para-la-informacion-en-ciencias/" style="text-decoration: none;">Licenciatura en Tecnologías para la Información en Ciencias</a></p>
+        </div>
+        
+    </body>
+</html>

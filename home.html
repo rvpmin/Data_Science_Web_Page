@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ciencia de Datos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link id="themeStylesheet" rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="images/database_icon (2).png">
+    </head>
+
+
+    <body>
+        <header class="top-bar">
+            <nav>
+                <ul>
+                    <li><p>Herramientas</p></li>
+                    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+                    <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+                    <li><a href="https://csszengarden.com/">CSS Zen Garden</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <section class="header">
+            <div class="header-content">
+                <h1>Ciencia de Datos</h1>
+            </div>
+        </section>
+
+        <section>
+            <div class="navbar">
+                <button
+                    onclick="document.location='html/proceso.html'">Proceso →</button>
+                <button
+                    onclick="document.location='html/tecnicas.html'">Técnicas →</button>
+                <button
+                    onclick="document.location='html/tecnologias.html'">Tecnologías →</button>
+                <button
+                    onclick="document.location='html/referencias.html'">Referencias →</button>
+
+                <button
+                    onclick="cambiarEstilo()">Cambiar Estilo (CSS)</button>
+
+                <script>
+                    function cambiarEstilo() {
+                        let link = document.getElementById("themeStylesheet");
+                        link.href = link.href.includes("style.css") ? "css/style2.css" : "css/style.css";
+                    }
+                </script>
+            </div>
+        </section>
+
+        
+        <div class="row">
+            <div class="side">
+                <h1>Tarea 0: HTML5 y CSS3</h1>
+                <h2>Introducci&oacute;n a la Ciencia de Datos</h2>
+                <h3>Tecnolog&iacute;as para la Informaci&oacute;n en Ciencias</h3>
+                <div style="height:200px;">
+                    <a href="https://www.enesmorelia.unam.mx/"><img src="images/enes-logo.png" alt="logo enes morelia unam" height="200px"></a>
+                </div>
+                <hr class="divider">
+                <br>
+                <div class="img">
+                    <a href="https://www.enesmorelia.unam.mx/licenciaturas/tecnologias-para-la-informacion-en-ciencias/"><img src="images/tics.png" alt="logo tics" height="100px"></a>
+                </div>
+                <br>
+                <br>
+                <hr class="divider">
+                <br>
+                <h4>Roxana P&eacute;rez Medina</h4>
+                <p>424013174</p>
+                
+            </div>
+            <div class="main">
+                <h5>28 de febrero de 2025</h5>
+                <h1>¿Qué es la Ciencia de Datos?</h1>
+
+                    <div class="subrow">
+                        <div class="column-left">
+                            <div class="text-block">
+                                <p>La <b>Ciencia de Datos</b> es una ciencia transdisciplinaria que involucra principios
+                                    y métodos de las matemáticas, la estadística, la inteligencia artificial y la
+                                    ingeniería de datos para analizar grandes cantidades de datos con la finalidad
+                                    de extraer información significativa y útil de estos.<br><br> Combinando modelos 
+                                    matemáticos y estadísticos y técnicas de programación y visualización de datos,
+                                    la ciencia de datos permite obtener el máximo valor de los datos para mejorar
+                                    el entendimiento de situaciones complejas, optimizar procesos, identificar
+                                    patrones en fenómenos reales para la toma de decisiones asertivas y responder
+                                    a preguntas clave como “qué pasó”, “por qué pasó”, “qué pasará” y “qué se
+                                    puede hacer con los resultados”.</p>
+                            </div><br>
+                            <figure>
+                                <img class="image" src="images/data_sci_img.png" width="70%">
+                            </figure>
+
+                        </div>
+                        <div class="column-right">
+                            <figure>
+                                <img class="image" src="images/venn.png" width="80%">
+                                <figcaption class="caption"><i> → Diagrama de Venn de Drew Conway</i></figcaption>
+                            </figure>
+                            <div class="text-block">
+                                <p>De acuerdo con Drew Conway, la Ciencia de Datos como campo interdisciplinario
+                                    incluye principalmente:</p>
+                                    <ul>
+                                        <li>Programaci&oacute;n</li>
+                                        <li>Matem&aacute;ticas y Estad&iacute;stica</li>
+                                        <li>Conocimiento Especializado</li>
+                                    </ul>
+                                    <p>como se puede observar en el diagrama de Venn anexado.</p>
+                            </div>
+                        </div>
+                    </div>
+                <br>
+                <hr>
+                <h2>Importancia de la Ciencia de Datos</h2>
+                <div class="fakeimg">
+                    <p>A medida que aumenta exponencialmente la cantidad 
+                        de datos, las empresas dependen cada vez más del 
+                        análisis para impulsar los ingresos y la innovación, 
+                        por lo que la necesidad de ciencia de datos también 
+                        crece rápidamente.</p>
+                </div>
+                <br>
+
+                <div class="text-highlight-lighter">
+                    <p>La ciencia de datos es especialmente importante en el 
+                        ámbito empresarial. Las organizaciones modernas están 
+                        inundadas de datos y a través de la combinación de 
+                        herramientas, métodos y tecnologías para el análisis 
+                        de patrones y tendencias, pueden predecir comportamientos 
+                        del mercado, mejorar la experiencia del cliente y aumentar 
+                        su competitividad. </p>
+                </div>
+                <br>
+                <div class="text">
+                    <p>Agregado a esto, la ciencia de datos facilita la 
+                        identificación de oportunidades de negocio y 
+                        la mitigación de riesgos, dando una ventaja competitiva 
+                        en un mercado dinámico, por lo que se vuelve una herramienta 
+                        clave para el crecimiento sostenible en un entorno que cada 
+                        vez es más data-driven. La capacidad de extraer valor de los 
+                        datos se ha convertido en un factor determinante para el 
+                        éxito empresarial. </p>
+                </div>
+            </div>
+        </div>
+
+        <section id="historia">
+            <h1 class="deco-h1">Historia</h1>
+            <div class="row">
+                <div class="column-one">
+                    <p class="column-text">A pesar de que generalmente se piensa en la ciencia de datos como una 
+                        disciplina reciente, este concepto ha sido utilizado desde la década 
+                        de los sesentas, cuando John W. Turkey cuestionó el futuro de la 
+                        estadística como ciencia empírica. Pero fue hasta 1974 que Peter Naur 
+                        acuñó el término “Ciencia de datos”. A partir de 1977 el término fue 
+                        integrado en asociaciones de ámbito estadístico y computacional como 
+                        la IASC (International Association for Statistical Computing).</p>
+                </div>
+                <div class="column-two">
+                    <p class="column-text">Fue hasta 1996 que el término “Ciencia de Datos” se utilizó por primera 
+                        vez en el título de una conferencia. En 2001 William S. Cleveland 
+                        introdujo a la ciencia de datos como una disciplina independiente de la 
+                        estadística, y al mismo tiempo, el término “Big Data” ganó tracción. 
+                        El año siguiente, en 2002, empezó la primera revista científica referente 
+                        a los datos, el Data Science Journal.</p>
+                </div>
+                <div class="column-three">
+                    <p class="column-text">Hasta hoy en día, la ciencia de datos ha tenido un crecimiento exponencial 
+                        y continúa creciendo. Es una pieza clave en sectores como la tecnología, 
+                        la salud, las finanzas y especialmente, el marketing. Conociendo esta 
+                        historia, podemos ver la evolución hacia un mundo cada vez más orientado 
+                        a los datos (data-driven).</p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="big-data">
+            <br>
+            <h1 class="deco-h1">Big Data y Data Science</h1>
+            
+            <p class="text-short" style="width: 80%;">Big  Data y Ciencia de Datos son dos conceptos 
+                fundamentales de la era digital y que están 
+                estrechamente relacionados, por lo que suelen ser 
+                confundidos y a menudo utilizados indistintamente, 
+                sin embargo, representan aspectos diferentes de la 
+                gestión y el análisis de datos.</p>
+            
+                <div class="row">
+                    <div class="column-left">
+                        <p class="text-block" style="width: 80%;">El término Big Data se refiere a la gestión, 
+                            procesamiento y análisis de una gran colección 
+                            de conjuntos de datos que no se pueden almacenar 
+                            en un sistema tradicional.  Estos datos están 
+                            caracterizados por las “tres V”: volumen (cantidad de datos), 
+                            velocidad (rapidez con la que se generan y procesan) y variedad
+                            (diferentes tipos de datos). Las soluciones Big Data proporcionan
+                            las herramientas, metodologías y tecnologías que se utilizan 
+                            para capturar, almacenar, buscar y analizar los datos eficazmente.</p>
+                        <br>
+                        <p class="text-block" style="transform: translate(120px,0); width: 85%;">La Ciencia de Datos es un instrumento para abordar Big Data y luego 
+                            extraer información de él. En otras palabras, Big Data proporciona 
+                            la infraestructura y herramientas para almacenar y procesar información 
+                            masiva, mientras que la Ciencia de Datos se enfoca en transformar esos 
+                            datos en decisiones inteligentes. En un mundo impulsado por la información, 
+                            el aprovechamiento del Big Data a través de la Ciencia de Datos es clave 
+                            para la innovación y la competitividad</p>
+                    </div>
+                    <div class="column-right">
+                        <img class="image" src="images/big_data.png" alt="big data 3 v's" style="width: 70%;">
+                    </div>
+                </div>
+
+            
+            
+            
+        </section>
+        <br>
+        <hr>
+        <section id="campos-realcionados">
+            <h1>Ciencia de Datos y Campos relacionados</h1>
+            <div class="row">
+                <div class="side">
+                    <img class="image-border" src="images/machine_learning.jpg" alt="machine learning image" style="width: 100%;">
+                    <img class="image-border" src="images/stats.jpg" alt="statistics image" style="width: 100%;">
+                </div>
+                <div class="main">
+                    <ul class="bullet-list">
+                        <li><h3><b>Análisis de Datos </b></h3></li>
+                        <p>El Análisis de Datos es un subconjunto de la Ciencia de Datos. 
+                            El análisis se ocupa principalmente de la estadística, las 
+                            matemáticas y el análisis estadístico, mientras que la Ciencia 
+                            de Datos utiliza nuevos métodos y herramientas para almacenar, 
+                            manipular y procesar los datos.</p>
+                        <hr>
+                        <li><h3><b>Ingeniería de Datos </b></h3></li>
+                        <p>Los ingenieros de datos crean y mantienen los sistemas que permiten 
+                            a los científicos de datos acceder e interpretar los datos. Los 
+                            científicos utilizan los datos que los ingenieros han procesado 
+                            para crear y entrenar modelos predictivos.</p>
+                        <hr>
+                        <li><h3><b>Machine Learning </b></h3></li>
+                        <p>Los ingenieros de datos crean y mantienen los sistemas que permiten 
+                            a los científicos de datos acceder e interpretar los datos. Los 
+                            científicos utilizan los datos que los ingenieros han procesado 
+                            para crear y entrenar modelos predictivos.</p>
+                        <hr>
+                        <li><h3><b>Estadística </b></h3></li>
+                        <p>La Estadística es un campo con bases matemáticas que busca recopilar 
+                            e interpretar datos cuantitativos. Por otra parte, la Ciencia de Datos 
+                            utiliza métodos de muchas disciplinas, incluida la Estadística, para extraer 
+                            conocimientos a partir de los datos de maneras diversas.</p>
+                    </ul>
+
+                </div>
+            
+        </div>
+        </section>
+
+        <section>
+            <div class="navbar-lower">
+                <button
+                    onclick="document.location='html/proceso.html'">Proceso →</button>
+                <button
+                    onclick="document.location='html/tecnicas.html'">Técnicas →</button>
+                <button
+                    onclick="document.location='html/tecnologias.html'">Tecnologías →</button>
+                <button
+                    onclick="document.location='html/referencias.html'">Referencias →</button>
+            </div>
+
+        </section>
+
+        <div class="footer">
+            <h3>Contacto</h3>
+                <a href="mailto:roxanaperezmedina6@gmail.com"> <img src="images/mail.png" alt="email" style="width: 30px;"></a>
+                <a href="https://github.com/rvpmin"><img src="images/github.png" alt="github" style="width: 30px;"></a>
+                <p><a href="https://www.enesmorelia.unam.mx/" style="text-decoration: none;">Escuela Nacional de Estudios Superiores</a> <b>|</b> 
+                    <a href="https://www.unam.mx/" style="text-decoration: none;">Universidad Nacional Autónoma de México</a> <b>|</b>
+                    <a href="https://www.enesmorelia.unam.mx/licenciaturas/tecnologias-para-la-informacion-en-ciencias/" style="text-decoration: none;">Licenciatura en Tecnologías para la Información en Ciencias</a></p>
+        </div>
+    </body>
+</html>

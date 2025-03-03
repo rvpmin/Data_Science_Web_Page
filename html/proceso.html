@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proceso de la Ciencia de Datos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link id="themeStylesheet" rel="stylesheet" href="../css/style.css">
+        <link rel="icon" type="image/x-icon" href="../images/database_icon (2).png">
+    </head>
+    <body>
+        <header class="top-bar">
+            <nav>
+                <ul>
+                    <li><a href="../home.html">home</a></li>
+                    <li><a href="../html/tecnicas.html">tecnicas</a></li>
+                    <li><a href="../html/tecnologias.html">tecnologías</a></li>
+                    <li><a href="../html/referencias.html">referencias</a></li>
+                    <button id="css-button"
+                    onclick="cambiarEstilo()">Cambiar Estilo (CSS)</button>
+
+                <script>
+                    function cambiarEstilo() {
+                        let link = document.getElementById("themeStylesheet");
+                        link.href = link.href.includes("style.css") ? "../css/style2.css" : "../css/style.css";
+                    }
+                </script>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="small-header">
+            <div class="header-content">
+                <h1>Proceso de la Ciencia de Datos</h1>
+            </div>
+        </section>
+
+        <section>
+            <div class="full-width-block">
+            </div>
+        </section>
+
+        <section id="proceso">
+            <br>
+            
+            <p class="text-short" >Una vez definido el problema a resolver, se 
+                inicia el proceso de la Ciencia de Datos que consta de varias etapas que 
+                permiten transformar datos en información útil para la toma de decisiones: 
+                <b>OSEMN</b> (obtain, scrum, explore, model and interpret).</p>
+            
+                <div class="row">
+                    <div class="column-left">
+                        <ol class="numbered-list">
+                            <li><b>Obtener</b></li>
+                            <p>Se recopilan datos de diversas fuentes, pueden ser preexistentes 
+                                o recién adquiridos.</p>
+                            <li><b>Limpiar</b></li>
+                            <p> Consiste en el proceso de normalizar los datos según un formato 
+                                predeterminado, gestionar los datos faltantes, corrección de 
+                                errores en los datos y eliminación de datos atípicos para asegurar 
+                                la calidad del análisis.</p>
+                            <li><b>Explorar</b></li>
+                            <p>Se trata de un análisis preliminar de los datos que se utiliza para 
+                                planificar otras estrategias para su modelado. Se obtiene una 
+                                comprensión inicial de los datos mediante estadísticas descriptivas 
+                                y herramientas de visualización.</p>   
+                        </ol>
+                        <br>
+                        <img class="image-border" src="../images/doodles.jpg" alt="data science doodle" style="width: 85%; justify-content: right;">
+                    </div>
+                    <div class="column-right">
+                        <ol class="numbered-list" start="4">
+                            <li><b>Modelar</b></li>
+                            <p>Se utiliza software y algoritmos de machine learning para obtener 
+                                información más profunda, predecir resultados y prescribir el mejor 
+                                curso de acción.</p>
+                            <li><b>Interpretar</b></li>
+                            <p> Se convierte la información obtenida en datos de acción. Diagramas, 
+                                gráficos y tablas son utilizados para representar tendencias y 
+                                predicciones de manera clara y efectiva, con el fin de apoyar la 
+                                toma de decisiones.</p>
+                        </ol>
+                        <br>
+                        <img class="image-border" src="../images/code_white.png" alt="code image" style="width: 85%;">
+                    </div>
+                </div>
+        </section>
+
+        <div class="footer">
+            <h3>Contacto</h3>
+            <a href="mailto:roxanaperezmedina6@gmail.com"> <img src="../images/mail.png" alt="email" style="width: 30px;"></a>
+                <a href="https://github.com/rvpmin"><img src="../images/github.png" alt="github" style="width: 30px;"></a>
+                <p><a href="https://www.enesmorelia.unam.mx/" style="text-decoration: none;">Escuela Nacional de Estudios Superiores</a> <b>|</b> 
+                    <a href="https://www.unam.mx/" style="text-decoration: none;">Universidad Nacional Autónoma de México</a> <b>|</b>
+                    <a href="https://www.enesmorelia.unam.mx/licenciaturas/tecnologias-para-la-informacion-en-ciencias/" style="text-decoration: none;">Licenciatura en Tecnologías para la Información en Ciencias</a></p>
+        </div>
+
+    </body>
+</html>
